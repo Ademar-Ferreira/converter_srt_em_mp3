@@ -8,9 +8,6 @@ Dependências:
 - pysrt: para analisar (parse) arquivos de legenda .srt.
 - asyncio: para rodar a biblioteca edge-tts.
 
-Instalação das dependências:
-pip install -r requirements.txt
-
 **IMPORTANTE**: Este script requer uma conexão ativa com a internet para funcionar.
 
 Como usar:
@@ -83,4 +80,5 @@ if __name__ == "__main__":
 
     # Executa a função assíncrona 'main'
     asyncio.run(main(caminho_srt_fornecido))
+
 
